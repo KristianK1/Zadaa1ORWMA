@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="dimen_Inspiration_margin_Vertical">5px</dimen>
+    <dimen name="dimen_Inspiration_margin_Horizontal">15px</dimen>
+
+    <dimen name="dimen_Inspiration_width">180dp</dimen>
+    <dimen name="dimen_Inspiration_height">70dp</dimen>
+
+    <dimen name="twTOP3_fontSize">25sp</dimen>
+    <dimen name="ib_size">315px</dimen>
+    <dimen name="Inspiration_textsize">20dp</dimen>
+
+    <dimen name="nameSize">20dp</dimen>
+    <dimen name="yearsSize">12dp</dimen>
+
+    <dimen name="bio_height">195px</dimen>
+    <dimen name="person_margin_right">10px</dimen>
+    <dimen name="ib_margin_Vertical">20px</dimen>
+    <dimen name="background_textbox">335px</dimen>
+</resources>

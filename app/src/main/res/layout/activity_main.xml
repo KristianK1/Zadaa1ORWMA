@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey"
+    >
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ivHello"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <EditText
+        android:id="@+id/etUnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivHello"
+        android:hint="enter text"
+        android:inputType="textPassword" />-->
+
+    <TextView
+        android:id="@+id/background1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/background_textbox"
+        android:layout_above="@id/ib2"
+        android:layout_marginBottom="10px"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/background2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/background_textbox"
+        android:layout_below="@id/ib1"
+        android:layout_marginTop="10px"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/background3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/background_textbox"
+        android:layout_below="@id/ib2"
+        android:layout_marginTop="10px"
+        android:background="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/bInspiration"
+        android:text="@string/bInspiration_text"
+        android:textSize="@dimen/Inspiration_textsize"
+        android:layout_width="@dimen/dimen_Inspiration_width"
+        android:layout_height="@dimen/dimen_Inspiration_height"
+        android:layout_marginVertical="@dimen/dimen_Inspiration_margin_Vertical"
+        android:layout_marginHorizontal="@dimen/dimen_Inspiration_margin_Horizontal"
+        android:onClick="customOnClick_Inspiration"
+
+        android:backgroundTint="@color/button_Inspiration_background"
+
+
+        />
+    <TextView
+        android:id="@+id/tbTOP3"
+        android:gravity="center"
+        android:textSize="@dimen/twTOP3_fontSize"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_Inspiration_height"
+
+        android:layout_toRightOf="@id/bInspiration"
+        android:text="@string/tbTOP3"
+        />
+
+
+
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:src="@mipmap/image_stephen_hawking_foreground"
+        android:layout_below="@id/bInspiration"
+        android:layout_width="@dimen/ib_size"
+        android:layout_height="@dimen/ib_size"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitCenter"
+        android:layout_marginVertical="@dimen/ib_margin_Vertical"
+        android:background="@null"
+        />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ib1"
+        android:layout_below="@id/bInspiration"
+        android:text="@string/name1"
+        android:textStyle="bold"
+        android:textSize="@dimen/nameSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        android:layout_marginTop="@dimen/ib_margin_Vertical"
+        />
+    <TextView
+        android:id="@+id/years1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name1"
+        android:layout_toRightOf="@id/ib1"
+        android:text="1942-2018"
+        android:textColor="@color/years_color"
+        android:textSize="@dimen/yearsSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        />
+    <TextView
+        android:id="@+id/person1_bio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bio_height"
+        android:layout_below="@id/years1"
+        android:layout_toRightOf="@id/ib1"
+        android:text="@string/person1_text"
+        android:layout_marginRight="@dimen/person_margin_right"
+        android:layout_marginBottom="@dimen/ib_margin_Vertical"
+        />
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:src="@mipmap/image_neil_degrasse_tyson_foreground"
+        android:layout_below="@id/ib1"
+        android:layout_width="@dimen/ib_size"
+        android:layout_height="@dimen/ib_size"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitCenter"
+        android:layout_marginVertical="@dimen/ib_margin_Vertical"
+        android:background="@null"
+        />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ib1"
+        android:layout_below="@id/ib1"
+        android:text="@string/name2"
+        android:textStyle="bold"
+        android:textSize="@dimen/nameSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        android:layout_marginTop="@dimen/ib_margin_Vertical"
+        />
+    <TextView
+        android:id="@+id/years2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name2"
+        android:layout_toRightOf="@id/ib2"
+        android:text="1958-present"
+        android:textColor="@color/years_color"
+        android:textSize="@dimen/yearsSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        />
+    <TextView
+        android:id="@+id/person2_bio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bio_height"
+        android:layout_below="@id/years2"
+        android:layout_toRightOf="@id/ib2"
+        android:text="@string/person2_text"
+        android:layout_marginRight="@dimen/person_margin_right"
+        />
+
+
+
+
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:src="@mipmap/image_john_green_foreground"
+        android:layout_below="@id/ib2"
+        android:layout_width="@dimen/ib_size"
+        android:layout_height="@dimen/ib_size"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="fitCenter"
+        android:layout_marginVertical="@dimen/ib_margin_Vertical"
+        android:background="@null"
+        />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ib2"
+        android:layout_below="@id/ib2"
+        android:text="@string/name3"
+        android:textStyle="bold"
+        android:textSize="@dimen/nameSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        android:layout_marginTop="@dimen/ib_margin_Vertical"
+
+        />
+    <TextView
+        android:id="@+id/years3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name3"
+        android:layout_toRightOf="@id/ib2"
+        android:text="1977-present"
+        android:textColor="@color/years_color"
+        android:textSize="@dimen/yearsSize"
+        android:layout_marginRight="@dimen/person_margin_right"
+        />
+    <TextView
+        android:id="@+id/person3_bio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bio_height"
+        android:layout_below="@id/years3"
+        android:layout_toRightOf="@id/ib2"
+        android:text="@string/person3_text"
+        android:layout_marginRight="@dimen/person_margin_right"
+        />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ib3"
+        android:layout_marginTop="25px"
+        android:hint="Edit Description"
+        />
+
+    <Button
+        android:id="@+id/bDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="Enter new description"
+        android:layout_below="@id/et_description"
+        android:onClick="customOnClick_Description_change"
+        />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rb_choose_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/bDescription"
+        >
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:text="@string/name1"
+            />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:text="@string/name2"
+            />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:text="@string/name3"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

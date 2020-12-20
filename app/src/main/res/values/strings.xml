@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Zadaća 1 ORWMA</string>
+    <string name="bInspiration_text">Inspiration</string>
+    <string name="tbTOP3">TOP 3</string>
+
+    <string name="name1">Stephen Hawking</string>
+    <string name="name2">Neil deGrasse Tyson</string>
+    <string name="name3">John Green</string>
+
+    <string name="person1_text">Stephen William Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death. He was the Lucasian Professor of Mathematics at the University of Cambridge between 1979 and 2009. Hawking was born in Oxford into a family of doctors. Hawking began his university education at University College, Oxford in October 1959 at the age of 17, where he received a first-class BA (Hons) degree in physics. He began his graduate work at Trinity Hall, Cambridge in October 1962, where he obtained his PhD degree in applied mathematics and theoretical physics, specialising in general relativity and cosmology in March 1966. During this period—in 1963—Hawking was diagnosed with an early-onset slow-progressing form of motor neurone disease that gradually paralysed him over the decades. After the loss of his speech, he was able to communicate through a speech-generating device—initially through use of a handheld switch, and eventually by using a single cheek muscle.</string>
+    <string name="person2_text">Neil deGrasse Tyson is an American astrophysicist, planetary scientist, author, and science communicator. Since 1996, he has been the Frederick P Rose Director of the Hayden Planetarium at the Rose Center for Earth and Space in New York City. The center is part of the American Museum of Natural History, where Tyson founded the Department of Astrophysics in 1997 and has been a research associate in the department since 2003. Tyson studied at Harvard University, the University of Texas at Austin, and Columbia University. From 1991 to 1994, he was a postdoctoral research associate at Princeton University. In 1994, he joined the Hayden Planetarium as a staff scientist and the Princeton faculty as a visiting research scientist and lecturer. In 1996, he became director of the planetarium and oversaw its $210 million reconstruction project, which was completed in 2000.</string>
+    <string name="person3_text">John Green is an American author and YouTube content creator. He won the 2006 Printz Award for his debut novel, Looking for Alaska, and his fourth solo novel, The Fault in Our Stars, debuted at number one on The New York Times Best Seller list in January 2012. The 2014 film adaptation opened at number one at the box office. In 2014, Green was included in Time magazines list of The 100 Most Influential People in the World. Another film based on a Green novel, Paper Towns, was released on July 24, 2015.</string>
+
+</resources>
