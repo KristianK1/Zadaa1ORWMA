@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     int Counting(String S, char x){
+        //trebao bi mu predati listu charova ('.', enter, ...)
         int rezultat=0;
         for(int i=0;i<S.length();i++){
             if(S.charAt(i)==x){
